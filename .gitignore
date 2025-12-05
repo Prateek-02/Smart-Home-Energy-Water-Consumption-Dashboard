@@ -1,2 +1,43 @@
+# Node Modules
 node_modules/
+client/node_modules/
+server/node_modules/
+
+# Build Output
+dist/
+build/
+client/dist/
+server/dist/
+
+# Environment Variables
 .env
+.env.local
+client/.env
+server/.env
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs/
+*.log
+
+# IDE / Editor files
+.vscode/
+.idea/
+*.swp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+
+# Local cache
+.cache/
+client/.vite/
+client/.vercel/
+client/.turbo/
